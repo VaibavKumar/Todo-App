@@ -1,0 +1,22 @@
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: hsl(0, 0%, 0%);
+    color: #fff;
+}
+body{
+    background-color: rgb(42, 42, 42);
+    text-align: center;
+    border: 3px solid #fff;
+}
+text,h1,h2{
+    color: #fff;
+}
