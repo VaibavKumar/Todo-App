@@ -8,6 +8,7 @@ app.use(express.json());
 app.use(cors()); 
 // post route
 // creating todo
+console.log(process.env.DBLINK)
 app.post('/todo',(req,res)=>{
     const createPayload = req.body
     const parserPayload = createtodo.safeParse(createPayload);

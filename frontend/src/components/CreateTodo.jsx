@@ -6,12 +6,12 @@ import { useState } from "react"
 
     return(
         <>
-        <input type="text" placeholder="Title" onChange={(e)=>{
+        <input id="title" type="text" placeholder="Title" onChange={(e)=>{
             const value = e.target.value;
             setTittle(e.target.value)
         }}></input><br />
 
-        <input type="text" placeholder="Description" onChange={(e)=>{
+        <input id="desc" type="text" placeholder="Description" onChange={(e)=>{
             const value = e.target.value;
             setDescription(e.target.value);
         }}></input><br />

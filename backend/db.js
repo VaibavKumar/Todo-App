@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 const { string, boolean } = require('zod')
-mongoose.connect("mongodb+srv://tvaibavkumar:041004%40Vk@cluster0.fppuw.mongodb.net/todos")
+require('dotenv').config();
+mongoose.connect(process.env.DBLINK)
 
 const todoSchema = mongoose.Schema({
     title: String,
